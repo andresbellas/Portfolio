@@ -14,8 +14,12 @@ header{
   width: 100%; 
   margin: 0;
   padding: 5rem 0; 
-  background-color: #333;
-  color: #fff;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(36, 4, 4, 0.5)), url(https://images.wallpapersden.com/image/download/programming-coding-language_bGhpbm6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+color: white;
+border-bottom: 2px solid yellow;
 }
   
 
@@ -27,13 +31,14 @@ footer {
   padding: 3rem 0; 
   background-color: #333;
   color: #fff;
+  border-top: 2px solid yellow;
 }
   
   
   main {
     padding: 11rem 0;
     margin: 0;
-    background: url(https://wallpapercat.com/w/full/b/b/6/3194064-3840x2160-desktop-hd-mountain-night-wallpaper-photo.jpg);
+    background-color: black;
   }
 
 
@@ -79,20 +84,21 @@ footer {
   }
 
   h1.principal{
-
+    transform: translate(20vw,2vh);
     font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   h2.pseudoTitulo{
-
-    transform: translate(37vw,-17vh);
-  font-size: 100px;
+  
+    transform: translate(8vw,-17vh);
+  font-size: 125px;
 
   }
   
   .TecnologiasT{
     font-size: 70px;
-    transform: translate(70.5vw,8vh);
+    transform: translate(70.5vw,2vh);
     
   }
   
@@ -105,8 +111,41 @@ footer {
     max-width: 600px; /* El ancho del bloque */
     margin-left: auto; /* Que empuje todo hacia la derecha */
     margin-right: 50px; /* El margen que querés desde la derecha */
-    text-align: justify; 
-    transform: translate(-35vw, -16vh);
+    text-align: justify;
+    font-size: 20px; 
+    transform: translate(-55vw, -16vh);
 
 
   }
+
+  .contacto{
+    transform: translate(8vw,-17vh);
+  }
+
+ 
+.Boxtext{
+  border: 3px solid #ffffff; 
+  padding: 20px;
+  background-color: #000000; 
+  color: #ffffff;  
+  width: fit-content;
+  margin: 20px;
+  border-radius: 0px; 
+  
+}
+
+.Boxtext2{
+  border: 3px solid #ffffff; 
+  padding: 20px;
+  background-color: #000000; 
+  color: #00ff22;  
+  width: fit-content;
+  margin: 20px;
+  border-radius: 0px; 
+  
+}
+
+.alineado{
+
+  transform: translate(20vw,2vh);
+}
