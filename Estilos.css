@@ -57,7 +57,8 @@ main {
 }
 
 .TecnologiasT {
-  font-size: 2.5rem;
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 1rem;
   color: white;
 }
@@ -88,6 +89,7 @@ main {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .estudios {
@@ -95,6 +97,7 @@ main {
   font-size: 1.1rem;
   text-align: center;
   margin-bottom: 3rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Contacto */
@@ -104,9 +107,11 @@ main {
 
 .ContactoT {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: white;
   text-align: center;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -114,6 +119,7 @@ main {
   color: white;
   font-size: 1.1rem;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -181,12 +187,10 @@ h2 {
 }
 
 .ProyectoT{
-  padding: 2rem 0;
-  margin:0rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 1rem;
   color: white;
-  text-align: center;
 
 
 }
@@ -212,10 +216,11 @@ h2 {
 }
 
 .tech-icon {
-  width: 150px;    
-  height: 150px;
-  object-fit: contain; 
-  margin: 0 10px;  
+  width: 300px;    
+  height: 300px;
+  object-fit: cover;
+  border-radius: 80%;
+  border: 3px solid white; 
 }
 
 .izquierda{
@@ -238,4 +243,77 @@ align-items: left;
 
 .icono-red:hover {
   transform: scale(1.1);
+}
+
+.white{
+color:white;
+}
+
+nav {
+  background-color: #222;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+.tech-icon2 {
+  width: 300px;    
+  height: 300px;
+  object-fit: scale-down;
+  border-radius: 80%;
+  border: 3px solid white; 
+}
+
+a {
+  font-size: 1.8rem; 
+  font-weight: bold; 
+}
+
+#mensaje {
+  resize: none; 
+  width: 310%; 
+  height: 150px; 
+}
+
+#nombre {
+  resize: none; 
+  width: 200%; 
+  height: 30px; 
+}
+
+#email {
+  resize: none; 
+  width: 200%; 
+  height: 30px; 
+}
+
+.enviar {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  width: 200px;
+  height: 60px;
+  background-color: grey;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
 }

@@ -8,15 +8,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#tecnologias">Tecnologías</a></li>
+      <li><a href="#Proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
   <header>
     <h1 class="Boxtext">ANDRES BELLAS TOLOSA</h1>
     <br>
     <h2 class="Boxtext2">Public Class PortfolioPersonal:</h2>
   </header>
+ 
 
   <main>
     <div class="contenido-principal">
-      <section class="sobre-mi">
+      <section id="sobre-mi" class="sobre-mi">
         <h2 class="pseudoTitulo"> >Sobre mi</h2>
         <p class="sobremi">
           ¡Hola! Mi nombre es Andrés Bellas Tolosa, entusiasta programador. Desde que 
@@ -30,19 +39,21 @@
           sistemas y subsistemas que interactúan entre sí. 
         </p>
 
-        <section class="tecnologias">
-          <h2 class="TecnologiasT">Tecnologías</h2>
+        <section id="tecnologias">
+          <h2 class="TecnologiasT">>Tecnologías</h2>
           <p class="tecnologias-texto">
             <img src="Imagenes/cpp.png" alt="C++" title="C++" class="tech-icon">
             <img src="Imagenes/sql.png" alt="SQL" title="SQL" class="tech-icon">
             <img src="Imagenes/dotnet.png" alt=".NET" title=".NET" class="tech-icon">
-            <img src="Imagenes/Web.png" alt="Css/Html/Javascrpit" title="Web" class="tech-icon">
-            <img src="Imagenes/git.png" alt="Git" title="Git" class="tech-icon">
+            <img src="Imagenes/Web.png" alt="Css/Html/Javascrpit" title="Web" class="tech-icon2">
+            <img src="Imagenes/git.png" alt="Git" title="Git" class="tech-icon2">
           </p>
         </section>
 
-        <section class="Proyectos">
+        <section id="Proyectos">
+          <br>
          <h2 class="ProyectoT">Proyectos: </h2>
+         <br>
          <a href="https://github.com/andresbellas">Clickea aqui para ir a mi repositorio en GITHUB</a>
          
 
@@ -66,6 +77,23 @@
           <p class="contacto-texto">
             Puedes contactarme en <a href="mailto:andresbellas2004@gmail.com">andresbellas2004@gmail.com</a>.
           </p>
+          <section id="contacto">
+     
+            <h2 class="white">Formulario de contacto</h2>
+            <form>
+              <br>
+              <label for="nombre" class="white">Nombre:</label><br>
+              <input type="text" id="nombre" name="nombre" required><br><br>
+          
+              <label for="email" class="white">Correo electrónico:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+          
+              <label for="mensaje" class="white">Mensaje:</label><br>
+              <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+          
+              <button class="enviar" type="submit">Enviar</button>
+            </form>
+          </section>
         </section>
       </aside>
     </div>
@@ -84,22 +112,7 @@
         <img src="Imagenes/instagram.png" alt="Instagram" class="icono-red">
       </a>
     </div>
-    <section id="contacto">
-     
-      <h2>Formulario de contacto</h2>
-      <form>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br><br>
     
-        <label for="email">Correo electrónico:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-    
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
-    
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
     
   </footer>
 </body>
