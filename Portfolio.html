@@ -91,8 +91,28 @@
               <label for="mensaje" class="white">Mensaje:</label><br>
               <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
           
-              <button class="enviar" type="submit">Enviar</button>
+              <button class="enviar" type="button" onclick="enviarCorreo()">Enviar</button>
             </form>
+
+            <script>
+              function enviarCorreo() {
+                let nombre = document.getElementById("nombre").value;
+                let email = document.getElementById("email").value;
+                let mensaje = document.getElementById("mensaje").value;
+              
+                if (!nombre || !email || !mensaje) {
+                  alert("Por favor, completa todos los campos.");
+                  return;
+                }
+              
+                let asunto = "Mensaje de contacto de " + nombre;
+                let cuerpo =  mensaje;
+              
+                let mailtoLink = "mailto:andresbellas2004@gmail.com?subject=" + encodeURIComponent(asunto) + "&body=" + encodeURIComponent(cuerpo);
+              
+                window.location.href = mailtoLink;
+              }
+              </script>
           </section>
         </section>
       </aside>
@@ -116,4 +136,6 @@
     
   </footer>
 </body>
+
+
 </html>
