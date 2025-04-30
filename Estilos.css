@@ -15,7 +15,7 @@ html, body {
 header {
   width: 100%; 
   padding: 5rem 0; 
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(36, 4, 4, 0.5)), url(https://images.wallpapersden.com/image/download/programming-coding-language_bGhpbm6UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(36, 4, 4, 0.5)), url(Imagenes/fondocode.jpg);
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
